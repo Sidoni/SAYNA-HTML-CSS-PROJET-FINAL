@@ -1,0 +1,84 @@
+body{
+    main{
+        .reservation{
+            margin-left: 10%;
+            border-style: solid none none solid;
+            border-color: white;
+            margin-top: 4%;
+            box-shadow: 10px 0px 25px ;
+            .title{
+                text-align: center;
+                margin-top: 3%;
+                margin-bottom: 1%;
+                margin-left: 3%;
+                font-weight: bold;
+                svg{
+                    fill: var(--primary-color);
+                }
+                span{
+                    color: var(--primary-color);
+
+                }
+            }
+            .to_fill{
+                .content{
+                    text-align: center;
+                    padding-top: 20px;
+                    padding-bottom: 2%;
+                    box-shadow: 0 0 10px 3px rgb(219, 219, 219);  /* Firefox 4, Safari 5, Opera 10, IE 9 */
+                    font-weight: bold;
+                    input{
+                        color:var(--primary-blue);
+                        font-weight: bold;
+                        border: none;
+                        font-size: 150%;
+                    }
+                    
+                }
+                .apply{
+                    width: 100%;
+
+                    margin-left: 80%;
+                }
+                
+            }
+            .our_trip{
+                margin-bottom: 2%;
+                div{
+                    svg{
+                        fill:var(--primary-blue);
+                    }
+                    
+                }
+                
+            }
+            .separator{
+                width: 100%;
+                height: 10px;
+                background-color: var(--primary-gray);
+            }
+            
+            
+        }
+        .more_details{
+
+            font-size: 40px;
+            text-transform: uppercase;
+            
+            .container{
+                background-color: var(--light-gray);
+                color: var(--gray-footer);
+                fill: var(--gray-footer);
+                letter-spacing: 20px;
+            }
+        }
+        .map_direction{
+            text-align: center;
+            div{
+                svg{
+                    fill: var(--primary-color);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,212 @@
+*, *::before, *::after{
+    // Ces paramètres seront respecté par défaut tout au long du projet
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;  
+}
+
+// Déclaration des variables
+:root{
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+    --trans-white:rgba(255, 255, 255, 0.8);
+// footer
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    
+}
+
+// classes utilisé comme variables dans html
+.fa{
+    color: white;
+}
+
+.img_resized{
+    width: 80px;
+    height: 50px;
+}
+// bg classes
+.bg-primary-blue{
+    background-color: var(--primary-blue);
+}
+.bg-primary-gray{
+    background-color: var(--primary-gray);
+}
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+// font-color classes
+.fc-primary-color{
+    color: var(--primary-color);
+}
+.fc-primary-gray{
+    color: var(--primary-gray);
+}
+.fs_feedback{
+    font-size: 30px;
+}
+
+body{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    header{ 
+        
+        nav{
+            font-size: 22px;
+
+            background-color: var( --primary-color);
+            a{
+                
+                color: white;        
+                img{
+                    width: 70px;
+                    height: 45px;
+                }
+                &:hover{
+                    color: white;
+                }
+            }
+            .nav_link {
+                margin-top: 5px;
+                a, i {
+                    &:hover{
+                        color: var(--primary-gray);
+                    }
+                }
+                
+            
+                a{
+                    padding-left: 10px;
+                    color: white;
+                    i{
+                        padding-right: 20px;
+                        
+                    }
+                    .about_logo{
+                        width: 40px;
+                        height: 40px;
+                        
+                        fill: white;
+                        &:hover{
+                            fill: var(--primary-gray);
+                        }
+                    }
+                    
+
+                }
+                
+                
+                
+            }
+        }
+    }
+    
+    footer{
+        background-color: black;
+        color: white;
+        
+        .reach-us{
+            padding:20px 0 60px 0;
+            ul{
+            
+                li{
+                    display: inline-block;
+                    padding: 10px;
+                    border-style: solid none solid none;
+                    border-color: white;
+                    text-transform: uppercase;
+                    .bords{
+                        padding-left: 0;
+                        li{
+                            border-style: none;
+                            font-weight: bold;
+                            a{
+                                &:hover{
+                                    color: var(--primary-gray);
+                                }
+                            }
+                            
+                        }
+                    }
+                    
+                    
+                    
+                }
+                .map-parent{
+    
+                    border-style: solid;
+                    border-radius: 55%;
+                    .map{
+                        padding-top: 10px;
+                        fill: white;
+                        &:hover{
+                            fill: var(--primary-gray);
+                        }
+                    }
+                }
+                
+                
+            }
+        }
+        .feedback{
+            text-align: center;
+            .underlined{
+                color: var(--primary-color);
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            .feedback-grid{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                .sub{
+                    form{
+                        input{
+                            border: 1px solid var(--gray-footer);
+                            background:none;
+                            padding-left: 5px;
+                            height: 40px;
+                        }
+                        button{
+                            background-color: var(--gray-footer-btn);
+                            color: white;
+                            text-align: center;
+                            height: 45px;
+                            border: 1px solid rgba(255, 255, 255, 0.3);
+                            width: 70px;
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    .bottom{
+        background-color: var(--gray-footer);
+        .social-ref{
+        
+            .networks{
+                width: 40px;
+                height: 50px;
+                fill: var(--primary-gray);
+                padding-left: 20px;
+                &:hover{
+                    fill: var(--primary-blue);
+                }
+            }
+            p{
+                color: var(--primary-gray);
+                margin-top: 20px;
+                font-weight: 900;
+            }
+        }
+    }
+    
+}

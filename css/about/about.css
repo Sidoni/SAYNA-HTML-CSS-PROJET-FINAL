@@ -1,0 +1,78 @@
+body main .reservation {
+  margin-left: 10%;
+  border-style: solid none none solid;
+  border-color: white;
+  margin-top: 4%;
+  box-shadow: 10px 0px 25px;
+}
+
+body main .reservation .title {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  font-weight: bold;
+}
+
+body main .reservation .title svg {
+  fill: var(--primary-color);
+}
+
+body main .reservation .title span {
+  color: var(--primary-color);
+}
+
+body main .reservation .to_fill .content {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 2%;
+  box-shadow: 0 0 10px 3px #dbdbdb;
+  /* Firefox 4, Safari 5, Opera 10, IE 9 */
+  font-weight: bold;
+}
+
+body main .reservation .to_fill .content input {
+  color: var(--primary-blue);
+  font-weight: bold;
+  border: none;
+  font-size: 150%;
+}
+
+body main .reservation .to_fill .apply {
+  width: 100%;
+  margin-left: 80%;
+}
+
+body main .reservation .our_trip {
+  margin-bottom: 2%;
+}
+
+body main .reservation .our_trip div svg {
+  fill: var(--primary-blue);
+}
+
+body main .reservation .separator {
+  width: 100%;
+  height: 10px;
+  background-color: var(--primary-gray);
+}
+
+body main .more_details {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+body main .more_details .container {
+  background-color: var(--light-gray);
+  color: var(--gray-footer);
+  fill: var(--gray-footer);
+  letter-spacing: 20px;
+}
+
+body main .map_direction {
+  text-align: center;
+}
+
+body main .map_direction div svg {
+  fill: var(--primary-color);
+}
